@@ -5,7 +5,6 @@ import { Container, Button } from "reactstrap";
  * Index
  */
 export default function Index() {
-  const [count, setCount] = useState(0);
   return (
     <Container>
       <ButtonClickingDemo />
